@@ -1,18 +1,28 @@
 {
-  "name": "meeting-scheduler",
-  "displayName": "Meeting Scheduler",
-  "botTitle": "Meeting Scheduler Bot",
-  "bot": true,
-  "scopes": {
-    "botScopes": [
-      "messages:read",
-      "messages:write",
-      "commands",
-      "users:read",
-      "channels:read"
-    ],
-    "userScopes": [
-      "messages:read"
-    ]
-  }
+  "schemaVersion": "1.4",
+  "key": "meeting-scheduler",
+  "name": "Meeting Scheduler",
+  "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler",
+  "minimalSubscriptionPlan": "FREE",
+  "description": "Schedule meetings with CalDAV integration and ICS email invites. Sends calendar invitations to internal and external attendees, syncs with Thunderbird/CalDAV calendars.",
+  "iconPath": "/icon.png",
+  "scopes": [
+    "PROJECT_READ",
+    "USER_READ",
+    "TIME_ENTRY_WRITE"
+  ],
+  "components": [
+    {
+      "type": "sidebar",
+      "label": "Meeting Scheduler",
+      "accessLevel": "EVERYONE",
+      "path": "/test-ui.html"
+    }
+  ],
+  "lifecycle": [
+    {
+      "path": "/lifecycle",
+      "type": "INSTALLED"
+    }
+  ]
 }
