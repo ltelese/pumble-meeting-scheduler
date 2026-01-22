@@ -2,7 +2,7 @@
   "schemaVersion": "1.4",
   "key": "meeting-scheduler",
   "name": "Meeting Scheduler",
-  "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler",
+  "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler/",
   "minimalSubscriptionPlan": "FREE",
   "description": "Schedule meetings with CalDAV integration and ICS email invites. Sends calendar invitations to internal and external attendees, syncs with Thunderbird/CalDAV calendars.",
   "iconPath": "/icon.png",
