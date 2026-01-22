@@ -1,0 +1,18 @@
+{
+  "name": "meeting-scheduler",
+  "displayName": "Meeting Scheduler",
+  "botTitle": "Meeting Scheduler Bot",
+  "bot": true,
+  "scopes": {
+    "botScopes": [
+      "messages:read",
+      "messages:write",
+      "commands",
+      "users:read",
+      "channels:read"
+    ],
+    "userScopes": [
+      "messages:read"
+    ]
+  }
+}
