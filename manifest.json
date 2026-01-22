@@ -18,11 +18,5 @@
       "accessLevel": "EVERYONE",
       "path": "/test-ui.html"
     }
-  ],
-  "lifecycle": [
-    {
-      "path": "/lifecycle",
-      "type": "INSTALLED"
-    }
   ]
 }
