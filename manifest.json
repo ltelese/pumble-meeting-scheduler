@@ -5,5 +5,13 @@
   "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler",
   "minimalSubscriptionPlan": "FREE",
   "description": "Schedule meetings with calendar integration and email invites",
-  "iconPath": "/icon.png"
+  "iconPath": "/icon.png",
+  "components": [
+    {
+      "type": "sidebar",
+      "label": "Meeting Scheduler",
+      "accessLevel": "EVERYONE",
+      "path": "/test-ui.html"
+    }
+  ]
 }
