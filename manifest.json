@@ -1,8 +1,56 @@
 {
-  "key": "calbridge",
-  "name": "CalBridge",
-  "baseUrl": "https://api.calbridge.io",
-  "minimalSubscriptionPlan": "FREE",
-  "description": "CalDAV based scheduling and email invites for Pumble",
-  "iconPath": "/icon.png"
+    "name": "calbridge",
+    "displayName": "CalBridge",
+    "bot": true,
+    "botTitle": "CalBridge - Schedule meetings with CalDAV integration",
+    "socketMode": false,
+    "scopes": {
+        "botScopes": [
+            "messages:read",
+            "messages:write"
+        ],
+        "userScopes": [
+            "messages:read",
+            "messages:write"
+        ]
+    },
+    "shortcuts": [
+        {
+            "shortcutType": "ON_MESSAGE",
+            "url": "https://api.calbridge.io/shortcuts/message",
+            "name": "schedule_from_message",
+            "displayName": "Schedule Meeting",
+            "description": "Schedule a meeting from this message"
+        },
+        {
+            "shortcutType": "GLOBAL",
+            "url": "https://api.calbridge.io/shortcuts/global",
+            "name": "create_meeting",
+            "displayName": "Create Meeting",
+            "description": "Create a new meeting with calendar invite"
+        }
+    ],
+    "slashCommands": [
+        {
+            "command": "/meeting",
+            "url": "https://api.calbridge.io/commands/meeting",
+            "description": "Create and manage calendar meetings",
+            "usageHint": "/meeting [create|list|cancel]"
+        }
+    ],
+    "eventSubscriptions": {
+        "url": "https://api.calbridge.io/events",
+        "events": [
+            "APP_UNAUTHORIZED",
+            "APP_UNINSTALLED",
+            "NEW_MESSAGE"
+        ]
+    },
+    "redirectUrls": [
+        "https://api.calbridge.io/oauth/callback"
+    ],
+    "helpUrl": "https://api.calbridge.io/help",
+    "listingUrl": "https://api.calbridge.io/install",
+    "welcomeMessage": "Hello :wave: I'm CalBridge! I can help you schedule meetings and send calendar invites.",
+    "offlineMessage": "CalBridge is temporarily unavailable. Please try again later."
 }
