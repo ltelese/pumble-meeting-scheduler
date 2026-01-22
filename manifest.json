@@ -3,5 +3,7 @@
   "key": "meeting-scheduler",
   "name": "Meeting Scheduler",
   "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler",
-  "minimalSubscriptionPlan": "FREE"
+  "minimalSubscriptionPlan": "FREE",
+  "description": "Schedule meetings with calendar integration and email invites",
+  "iconPath": "/icon.png"
 }
