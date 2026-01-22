@@ -7,9 +7,7 @@
   "description": "Schedule meetings with CalDAV integration and ICS email invites. Sends calendar invitations to internal and external attendees, syncs with Thunderbird/CalDAV calendars.",
   "iconPath": "/icon.png",
   "scopes": [
-    "PROJECT_READ",
-    "USER_READ",
-    "TIME_ENTRY_WRITE"
+    "USER_READ"
   ],
   "components": [
     {
