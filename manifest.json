@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.4",
-  "key": "meeting-scheduler",
-  "name": "Meeting Scheduler",
+  "key": "calbridge-meeting-scheduler",
+  "name": "CalBridge Meeting Scheduler",
   "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler",
   "minimalSubscriptionPlan": "FREE",
   "description": "Schedule meetings with calendar integration and email invites",
