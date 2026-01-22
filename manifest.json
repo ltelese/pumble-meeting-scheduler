@@ -1,21 +1,8 @@
 {
-  "schemaVersion": 1.4,
-  "key": "calbridge-meeting-scheduler",
-  "name": "CalBridge Meeting Scheduler",
-  "baseUrl": "https://ltelese.github.io/pumble-meeting-scheduler/",
+  "key": "calbridge",
+  "name": "CalBridge",
+  "baseUrl": "https://api.calbridge.io",
   "minimalSubscriptionPlan": "FREE",
-  "description": "Schedule meetings with CalDAV integration and ICS email invites. Sends calendar invitations to internal and external attendees, syncs with Thunderbird and CalDAV calendars.",
-  "iconPath": "/icon.png",
-  "scopes": [
-    "USER_READ",
-    "WORKSPACE_READ"
-  ],
-  "components": [
-    {
-      "type": "sidebar",
-      "label": "Meeting Scheduler",
-      "accessLevel": "EVERYONE",
-      "path": "/test-ui.html"
-    }
-  ]
+  "description": "CalDAV based scheduling and email invites for Pumble",
+  "iconPath": "/icon.png"
 }
