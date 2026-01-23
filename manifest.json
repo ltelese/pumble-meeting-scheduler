@@ -38,7 +38,7 @@
             "usageHint": "/meeting [create|list|cancel]"
         }
     ],
-    "eventSubscriptions": {
+    "events": {
         "url": "https://ltelese.github.io/pumble-meeting-scheduler/events",
         "events": [
             "APP_UNAUTHORIZED",
