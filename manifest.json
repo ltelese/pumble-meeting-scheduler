@@ -9,13 +9,16 @@
             "messages:read",
             "messages:write",
             "channels:read",
-            "users:read"
+            "users:list",
+            "user:read",
+            "workspace:read"
         ],
         "userScopes": [
             "messages:read",
             "messages:write",
             "channels:read",
-            "users:read"
+            "users:list",
+            "user:read"
         ]
     },
     "shortcuts": [
