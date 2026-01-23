@@ -7,57 +7,20 @@
     "scopes": {
         "botScopes": [
             "messages:read",
-            "messages:write",
-            "channels:read",
-            "users:list",
-            "user:read",
-            "workspace:read"
+            "messages:write"
         ],
         "userScopes": [
             "messages:read",
-            "messages:write",
-            "channels:read",
-            "users:list",
-            "user:read"
+            "messages:write"
         ]
     },
-    "shortcuts": [
-        {
-            "shortcutType": "ON_MESSAGE",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/shortcuts/message",
-            "name": "schedule_from_message",
-            "displayName": "Schedule Meeting",
-            "description": "Schedule a meeting from this message"
-        },
-        {
-            "shortcutType": "GLOBAL",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/shortcuts/global",
-            "name": "create_meeting",
-            "displayName": "Create Meeting",
-            "description": "Create a new meeting with calendar invite"
-        }
-    ],
-    "slashCommands": [
-        {
-            "command": "/meeting",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/commands/meeting",
-            "description": "Create and manage calendar meetings",
-            "usageHint": "/meeting [create|list|cancel]"
-        }
-    ],
+    "shortcuts": [],
+    "slashCommands": [],
     "events": {
         "url": "https://ltelese.github.io/pumble-meeting-scheduler/events",
-        "events": [
-            "APP_UNAUTHORIZED",
-            "APP_UNINSTALLED",
-            "NEW_MESSAGE"
-        ]
+        "events": []
     },
     "redirectUrls": [
         "https://ltelese.github.io/pumble-meeting-scheduler/oauth/callback"
-    ],
-    "helpUrl": "https://ltelese.github.io/pumble-meeting-scheduler/help",
-    "listingUrl": "https://ltelese.github.io/pumble-meeting-scheduler/install",
-    "welcomeMessage": "Hello! I'm CalBridge and I can help you schedule meetings and send calendar invites.",
-    "offlineMessage": "CalBridge is temporarily unavailable. Please try again later."
+    ]
 }
