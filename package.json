@@ -1,0 +1,47 @@
+{
+  "name": "pumble-meeting-scheduler",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/pumble-bot-ui.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-connection": "ts-node test-connection.ts",
+    "test-meeting": "ts-node test-meeting-creation.ts",
+    "test-wednesday": "ts-node test-wednesday-demo.ts",
+    "serve-manifest": "node serve-manifest.js",
+    "dev-local": "ts-node src/server-simple.ts",
+    "bot": "ts-node src/pumble-bot.ts",
+    "railway:start": "npm run build && npm start"
+  },
+  "keywords": [
+    "pumble",
+    "calendar",
+    "caldav",
+    "meetings",
+    "scheduler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Pumble add-on for scheduling meetings with CalDAV integration and ICS email invites",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ical-generator": "^10.0.0",
+    "nodemailer": "^7.0.12",
+    "pumble-sdk": "^1.0.0",
+    "tsdav": "^2.1.6",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.7",
+    "@types/nodemailer": "^7.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
