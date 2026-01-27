@@ -18,14 +18,14 @@
     "shortcuts": [
         {
             "shortcutType": "ON_MESSAGE",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/shortcuts/message",
+            "url": "https://calbridge.algeniacloud.com/shortcuts/message",
             "name": "schedule_from_message",
             "displayName": "Schedule Meeting",
             "description": "Schedule a meeting from this message"
         },
         {
             "shortcutType": "GLOBAL",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/shortcuts/global",
+            "url": "https://calbridge.algeniacloud.com/shortcuts/global",
             "name": "create_meeting",
             "displayName": "Create Meeting",
             "description": "Create a new meeting with calendar invite"
@@ -34,13 +34,13 @@
     "slashCommands": [
         {
             "command": "/meeting",
-            "url": "https://ltelese.github.io/pumble-meeting-scheduler/commands/meeting",
+            "url": "https://calbridge.algeniacloud.com/commands/meeting",
             "description": "Create and manage calendar meetings",
             "usageHint": "/meeting [create|list|cancel]"
         }
     ],
     "eventSubscriptions": {
-        "url": "https://ltelese.github.io/pumble-meeting-scheduler/events",
+        "url": "https://calbridge.algeniacloud.com/events",
         "events": [
             "APP_UNAUTHORIZED",
             "APP_UNINSTALLED",
@@ -48,10 +48,10 @@
         ]
     },
     "redirectUrls": [
-        "https://ltelese.github.io/pumble-meeting-scheduler/oauth/callback"
+        "https://calbridge.algeniacloud.com/oauth/callback"
     ],
-    "helpUrl": "https://ltelese.github.io/pumble-meeting-scheduler/help",
-    "listingUrl": "https://ltelese.github.io/pumble-meeting-scheduler/install",
+    "helpUrl": "https://calbridge.algeniacloud.com/help",
+    "listingUrl": "https://calbridge.algeniacloud.com/install",
     "welcomeMessage": "Hello :wave:",
     "offlineMessage": "We are experiencing some issues at the moment. Please try again later"
 }
