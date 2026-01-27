@@ -4,6 +4,7 @@
     "bot": true,
     "botTitle": "CalBridge - Schedule meetings with CalDAV integration",
     "socketMode": false,
+    "dynamicMenus": [],
     "scopes": {
         "botScopes": [
             "messages:read",
